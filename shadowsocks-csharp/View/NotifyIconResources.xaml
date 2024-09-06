@@ -54,7 +54,6 @@
             <MenuItem x:Name="SubscribeSetting" />
             <MenuItem x:Name="UpdateSubscribeSsrNode" />
         </MenuItem>
-        <MenuItem x:Name="ShowLogs" />
         <Separator />
         <MenuItem x:Name="More">
             <MenuItem x:Name="GlobalSettings" />
