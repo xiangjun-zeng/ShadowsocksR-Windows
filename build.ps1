@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 Write-Host 'dotnet SDK info'
 dotnet --info
 
-$exe = 'Eagle_VPN.exe'
+$exe = 'ShadowsocksR.exe'
 $net_tfm = 'net7.0-windows'
 $configuration = 'Release'
 $output_dir = "$PSScriptRoot\shadowsocks-csharp\bin\$configuration"
