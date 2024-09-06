@@ -328,18 +328,6 @@ namespace Shadowsocks.Controller
                             ((MenuItem)_moreMenu.Items[1]).Click += DnsSetting_Click;
                             ((MenuItem)_moreMenu.Items[2]).Click += ShowPortMapItem_Click;
                             ((MenuItem)_moreMenu.Items[3]).Click += ShowUrlFromQrCode;
-                            ((MenuItem)_moreMenu.Items[5]).Click += OpenWiki_Click;
-                            ((MenuItem)_moreMenu.Items[6]).Click += FeedbackItem_Click;
-
-                            _updateMenu = (MenuItem)_moreMenu.Items[8];
-
-                            ((MenuItem)_updateMenu.Items[0]).Click += CheckUpdate_Click;
-                            UpdateItem = (MenuItem)_updateMenu.Items[1];
-                            AutoCheckUpdateItem = (MenuItem)_updateMenu.Items[3];
-                            AllowPreReleaseItem = (MenuItem)_updateMenu.Items[4];
-                            UpdateItem.Click += UpdateItem_Clicked;
-                            AutoCheckUpdateItem.Click += AutoCheckUpdateItem_Click;
-                            AllowPreReleaseItem.Click += AllowPreRelease_Click;
                             break;
                         }
                         case @"Quit":
