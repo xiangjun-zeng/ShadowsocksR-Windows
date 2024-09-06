@@ -11,7 +11,7 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
-    <AssemblyName>ShadowsocksR</AssemblyName>
+    <AssemblyName>Eagle_VPN</AssemblyName>
     <RootNamespace>Shadowsocks</RootNamespace>
     <ApplicationIcon>vpn.ico</ApplicationIcon>
     <StartupObject>Shadowsocks.Program</StartupObject>
