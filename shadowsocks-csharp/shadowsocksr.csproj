@@ -14,7 +14,7 @@
     <AssemblyName>ShadowsocksR</AssemblyName>
     <RootNamespace>Shadowsocks</RootNamespace>
     <ApplicationIcon>vpn.ico</ApplicationIcon>
-    <StartupObject>eagle-vpn.Program</StartupObject>
+    <StartupObject>Shadowsocks.Program</StartupObject>
     <LangVersion>latest</LangVersion>
     <SelfContained>false</SelfContained>
   </PropertyGroup>
