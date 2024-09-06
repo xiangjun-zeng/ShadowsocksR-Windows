@@ -33,7 +33,7 @@ namespace Shadowsocks.Controller
                 if (SaveToFile)
                 {
                     var newDate = DateTime.Now.ToString("yyyy-MM");
-                    LogFileName = $@"shadowsocks_{newDate}.log";
+                    LogFileName = $@"vpn_{newDate}.log";
                     LogFile = Utils.GetTempPath(LogFileName);
                     _logFileStream = new FileStream(LogFile, FileMode.Append);
                     _logStreamWriter = new StreamWriterWithTimestamp(_logFileStream)
@@ -107,7 +107,7 @@ namespace Shadowsocks.Controller
 
         private static void CompressOldLogFile()
         {
-            var list = Directory.GetFiles(Utils.TempPath, @"shadowsocks_*.log", SearchOption.TopDirectoryOnly);
+            var list = Directory.GetFiles(Utils.TempPath, @"vpn_*.log", SearchOption.TopDirectoryOnly);
             foreach (var file in list)
             {
                 if (file != LogFile)

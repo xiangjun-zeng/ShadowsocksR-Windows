@@ -11,10 +11,10 @@
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
     <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
     <GenerateAssemblyInformationalVersionAttribute>false</GenerateAssemblyInformationalVersionAttribute>
-    <AssemblyName>ShadowsocksR</AssemblyName>
-    <RootNamespace>Shadowsocks</RootNamespace>
-    <ApplicationIcon>shadowsocks.ico</ApplicationIcon>
-    <StartupObject>Shadowsocks.Program</StartupObject>
+    <AssemblyName>Eagle-vpnR</AssemblyName>
+    <RootNamespace>Eagle-vpn</RootNamespace>
+    <ApplicationIcon>vpn.ico</ApplicationIcon>
+    <StartupObject>eagle-vpn.Program</StartupObject>
     <LangVersion>latest</LangVersion>
     <SelfContained>false</SelfContained>
   </PropertyGroup>
