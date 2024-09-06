@@ -632,8 +632,6 @@ namespace Shadowsocks.Controller
 
             SelectRandomItem.IsChecked = config.Random;
             sameHostForSameTargetItem.IsChecked = config.SameHostForSameTarget;
-            AutoCheckUpdateItem.IsChecked = config.AutoCheckUpdate;
-            AllowPreReleaseItem.IsChecked = config.IsPreRelease;
         }
 
         private static Grid CreateSelectedIcon()
