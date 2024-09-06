@@ -316,11 +316,6 @@ namespace Shadowsocks.Controller
                             ((MenuItem)menuItem.Items[1]).Click += CheckNodeUpdate_Click;
                             break;
                         }
-                        case @"ShowLogs":
-                        {
-                            menuItem.Click += ShowLogItem_Click;
-                            break;
-                        }
                         case @"More":
                         {
                             _moreMenu = menuItem;
