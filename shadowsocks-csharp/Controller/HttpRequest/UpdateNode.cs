@@ -7,7 +7,7 @@ namespace Shadowsocks.Controller.HttpRequest
 {
     public class UpdateNode : HttpRequest
     {
-        public const string DefaultUpdateUrl = @"https://raw.githubusercontent.com/HMBSbige/Text_Translation/master/ShadowsocksR/freenodeplain.txt";
+        public const string DefaultUpdateUrl = @"请联系eagle 销售人员，获取订阅地址";
 
         public event EventHandler NewFreeNodeFound;
         public string FreeNodeResult;
