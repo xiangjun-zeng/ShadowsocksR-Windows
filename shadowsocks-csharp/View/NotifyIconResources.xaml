@@ -62,16 +62,6 @@
             <MenuItem x:Name="PortSettings" />
             <MenuItem x:Name="GenQrCode" />
             <Separator />
-            <MenuItem x:Name="OpenWiki" />
-            <MenuItem x:Name="Feedback" />
-            <Separator />
-            <MenuItem x:Name="Update">
-                <MenuItem x:Name="CheckUpdate" />
-                <MenuItem x:Name="UpdateAvailable" Visibility="Collapsed" />
-                <Separator />
-                <MenuItem x:Name="AutoCheckUpdate" />
-                <MenuItem x:Name="AllowPreRelease" />
-            </MenuItem>
         </MenuItem>
         <MenuItem x:Name="Quit" />
     </ContextMenu>
