@@ -20,7 +20,7 @@ namespace Shadowsocks.Model
         public ServerSubscribe()
         {
             _url = UpdateNode.DefaultUpdateUrl;
-            _autoCheckUpdate = true;
+            _autoCheckUpdate = false;
             _proxyType = HttpRequestProxyType.Auto;
         }
 
